@@ -1,3 +1,9 @@
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 3.5em;
+  text-shadow: 3px 3px 2px red, -3px -3px 2px blue;
+}
 h2 {
   text-align: center;
 }
@@ -5,25 +11,53 @@ body {
   background-image: url("http://www.hardlyserious.com/wp-content/uploads/2015/08/grunge_bless_america___precut_png_stock_by_somadjinn-d727784.png");
   background-position: top;
 }
-span {
-  color: red;
-}
 th {
   font-weight: 300;
 }
 .athlete-view {
-  background-color: #F8F8FF;
-  
+  background-color: rgba(192,192,192,0.9);
+  width: 400px;
+  border: solid blue;
+  border-radius: 5px;
+  border-width: medium;
+  padding: 5px;
 }
 .btn {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Gold_medal.svg/300px-Gold_medal.svg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 200px;
   margin: 5px 0;
+  border: solid gray thin;
+  opacity: 0.95;
+}
+.red {
+  border: solid red;
+  border-radius: 5px;
+  border-width: medium;
+  width: 410px;
+  margin: 20px auto;
+  box-shadow: 0 0 8px 3px gray;
 }
 .table {
   width: 75%;
   margin: 20px;
 }
+.white {
+  border: solid white;
+  border-radius: 5px;
+  border-width: medium;
+  width: 405px;
+}
 #sport-list {
   font-weight: bold;
   font-size: 1.2em;
+}
+#athlete, #origin {
+  font-style: italic;
+  font-variant: small-caps;
+}
+#athlete-name, #athlete-origin {
+  color: red;
+  font-style: normal;
 }
