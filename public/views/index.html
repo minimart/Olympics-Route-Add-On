@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="athleteApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Olympic Athlete Generator</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css" charset="utf-8">
+    <script src="vendor/angular.min.js" charset="utf-8"></script>
+    <script src="vendor/angular-route/angular-route.min.js"></script>
+    <script src="js/client.js" charset="utf-8"></script>
+    <base href="/" />
+  </head>
+  <body class="container">
+    <header class="page-header"><h1>Olympic Athlete Generator</h1></header>
+    <main>
+      <a href="/badminton"><button class="btn btn-primary btn-lg">Badminton</button></a>
+      <a href="/judo"><button class="btn btn-success btn-lg">Judo</button></a>
+      <a href="/synchronized-swimming"><button class="btn btn-info btn-lg">Synch Swimming</button></a>
+      <a href="/table-tennis"><button class="btn btn-warning btn-lg">Table Tennis</button></a>
+      <a href="/triathlon"><button class="btn btn-danger btn-lg">Triathlon</button></a>
+
+
+      <!-- DEBUG TURN THIS ON -->
+      <!-- {{randomAthleteArray}} -->
+
+      <!-- <table class="table table-striped"> -->
+        <!-- <tr>
+          <th>Sport:</th>
+          <th>Name:</th>
+          <th>Origin:</th>
+        </tr> -->
+        <!-- <tr ng-repeat="athlete in randomAthleteArray">
+          <th id="sport-list">{{athlete.sport}}:</th>
+          <th>{{athlete.name}}</th>
+          <th>{{athlete.origin}}</th>
+        </tr>
+      </table> -->
+
+      <div ng-view>
+
+      </div>
+
+    </main>
+  </body>
+</html>

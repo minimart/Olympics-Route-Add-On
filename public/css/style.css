@@ -1,0 +1,29 @@
+h2 {
+  text-align: center;
+}
+body {
+  background-image: url("http://www.hardlyserious.com/wp-content/uploads/2015/08/grunge_bless_america___precut_png_stock_by_somadjinn-d727784.png");
+  background-position: top;
+}
+span {
+  color: red;
+}
+th {
+  font-weight: 300;
+}
+.athlete-view {
+  background-color: #F8F8FF;
+  
+}
+.btn {
+  width: 200px;
+  margin: 5px 0;
+}
+.table {
+  width: 75%;
+  margin: 20px;
+}
+#sport-list {
+  font-weight: bold;
+  font-size: 1.2em;
+}
